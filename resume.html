@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume</title>
+    <link rel="stylesheet" href="resume.css" />
+    <link rel="stylesheet" href="home.css" />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="index.html" id="home-link">Home</a></li>
+          <li><a href="about.html" id="about-link">About Me</a></li>
+          <li><a href="resume.html" id="resume-link">Resume</a></li>
+          <li><a href="#" id="contact-link">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="professional-summary">
+        <h2>Professional Summary</h2>
+        <p>Add your professional summary here.</p>
+      </section>
+
+      <section class="education">
+        <h2>Education</h2>
+        <p>Add your education details here.</p>
+      </section>
+
+      <section class="work-experience">
+        <h2>Work Experience</h2>
+        <div id="work-experience-list">
+          <!-- Work experience items will be dynamically added here -->
+        </div>
+        <button onclick="addWorkExperience()">Add Work Experience</button>
+      </section>
+
+      <section class="skills">
+        <h2>Skills</h2>
+        <div id="skills-list">
+          <!-- Skills items will be dynamically added here -->
+        </div>
+        <button onclick="addSkills()">Add Skills</button>
+      </section>
+
+      <section class="projects">
+        <h2>Projects or Portfolio</h2>
+        <p>your projects or portfolio details here.</p>
+      </section>
+
+      <section class="achievements">
+        <h2>Achievements and Awards</h2>
+        <p>your achievements and awards here.</p>
+      </section>
+
+      <section class="references">
+        <h2>References</h2>
+        <p>Add your references here.</p>
+        <br />
+        ......
+      </section>
+
+      <section class="contact-information">
+        <h2>Contact Information</h2>
+      </section>
+    </main>
+
+    <footer>
+      <p>
+        Connect with me on <a href="https://www.linkedin.com/">LinkedIn</a> and
+        <a href="https://twitter.com/">Twitter</a>
+      </p>
+    </footer>
+
+    <script src="resume.js"></script>
+  </body>
+</html>
